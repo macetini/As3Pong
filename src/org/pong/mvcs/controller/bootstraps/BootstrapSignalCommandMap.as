@@ -14,7 +14,6 @@ package org.pong.mvcs.controller.bootstraps
 	 * 
 	 * @author mc
 	 */
-	
 	public class BootstrapSignalCommandMap 
 	{	
 		public function BootstrapSignalCommandMap(signalCommandMap:ISignalCommandMap) 

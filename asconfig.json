@@ -1,0 +1,19 @@
+{
+	"config": "air",
+	"compilerOptions": {
+		"source-path": [
+			"src",
+			"libs_src"
+		],
+		"library-path": [
+			
+		],
+		"output": "bin/Pong.swf",
+		"keep-as3-metadata": [
+           "Inject",
+		   "PostConstruct"
+    ]
+	},
+	"application": "application.xml",
+	"mainClass": "Main"
+}

@@ -11,7 +11,7 @@ package org.pong.components
 	 * 
 	 */
 	
-	public class NetShape extends Shape 
+	public class NetShape extends Shape
 	{
 		/**
 		 * Net shape color.

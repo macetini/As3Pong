@@ -21,7 +21,7 @@ package robotlegs.bender.extensions.starlingViewMap.impl
 	
 		protected function get signalMap():ISignalMap
 		{
-			return _signalMap ||= new SignalMap();
+			return _signalMap = new SignalMap();
 		}
 	
 		protected function addToSignal(signal:ISignal, handler:Function):void

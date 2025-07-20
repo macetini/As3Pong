@@ -1,7 +1,6 @@
 package org.pong.mvcs.view 
 {
 	import org.pong.mvcs.model.signals.UpdateViewsSignal;
-	import org.pong.mvcs.view.signals.TickSignal;
 	import org.pong.utils.graphic.GraphicUtils;
 	import robotlegs.bender.extensions.starlingViewMap.impl.SignalMediator;
 	

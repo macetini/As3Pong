@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" ?> 
-<application xmlns="http://ns.adobe.com/air/application/21.0">
+<application xmlns="http://ns.adobe.com/air/application/51.2.1.0">
 	
 	<id>Pong</id> 
 	<versionNumber>1.0</versionNumber> 
 	<filename>Pong</filename> 
 	
 	<name>Pong</name> 
-	<description></description> 
+	<description>Tech Demo</description> 
 	<copyright></copyright> 
 	
 	<initialWindow> 
