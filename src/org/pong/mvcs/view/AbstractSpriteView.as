@@ -8,7 +8,7 @@ package org.pong.mvcs.view
 	/**
 	 * AbstractMediator is base mediator for all Sprite View components.
 	 * 
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 */
 	public class AbstractSpriteView extends Sprite implements IView
 	{

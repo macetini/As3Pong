@@ -8,7 +8,7 @@ package org.pong.mvcs.view.component.paddle
 	 * 
 	 * @see org.pong.mvcs.view.component.AbstractPaddleView
 	 * 
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 */
 	public class RightPaddleView extends AbstractPaddleView 
 	{	

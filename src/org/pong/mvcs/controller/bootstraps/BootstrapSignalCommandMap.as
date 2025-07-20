@@ -12,7 +12,7 @@ package org.pong.mvcs.controller.bootstraps
 	 * 
 	 * @see org.pong.mvcs.AppConfig
 	 * 
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 */
 	public class BootstrapSignalCommandMap 
 	{	

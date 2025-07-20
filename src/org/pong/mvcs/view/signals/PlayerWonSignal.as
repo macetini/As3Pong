@@ -6,7 +6,7 @@ package org.pong.mvcs.view.signals
 	 * 
 	 * Dispatched by BallView once the match ended. Used to deremine new ball direction and calculate new score.
 	 *
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 */
 	public class PlayerWonSignal extends Signal 
 	{

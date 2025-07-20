@@ -8,7 +8,7 @@ package org.pong.mvcs.view.mediator
 	/**
 	 * Hud mediator - handles score calculation signals.
 	 * 
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 */
 	public class HudMediator extends AbstractMediator 
 	{

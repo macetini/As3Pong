@@ -9,7 +9,7 @@ package org.pong.mvcs.view.component
 	 * 
 	 * General behavior of paddle object, abstract class that contains shared paddle functionality.
 	 * 
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 */
 	public class AbstractPaddleView extends AbstractSpriteView 
 	{		

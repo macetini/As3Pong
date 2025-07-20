@@ -7,7 +7,7 @@ package org.pong.mvcs.controller.commands
 	 * 
 	 * Command called when game is started, it initiates loading of all graphical assets.
 	 * 
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 */
 	
 	public class StartLoadingAssetsCommand

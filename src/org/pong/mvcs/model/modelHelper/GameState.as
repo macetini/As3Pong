@@ -5,7 +5,7 @@ package org.pong.mvcs.model.modelHelper
 	 * The GameState class is a helper class used by <code>StarlingGameModel</code>. It is used to describe current 
 	 * state of application.
 	 * 
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 */
 	
 	public class GameState 

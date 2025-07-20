@@ -10,7 +10,7 @@ package org.pong.mvcs.view.mediator
 	/**
 	  * Loading Screen mediator - handles assets loading.
 	 * 
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 */
 	public class LoadingScreenMediator extends AbstractMediator
 	{

@@ -17,7 +17,7 @@ package org.pong.mvcs.view.component
 	 * Game view is only one step above stage. It is a first screen show on stage. It is also a screen navigator that
 	 * enables transition from loading screen to main screen.
 	 * 
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 */
 	
 	public class StarlingGameView extends ScreenNavigator

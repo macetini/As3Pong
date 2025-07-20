@@ -5,7 +5,7 @@ package org.pong.mvcs.view.mediator
 	/**
 	 * MainView Mediator.
 	 * 
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 */
 	
 	public class MainMediator extends AbstractMediator

@@ -11,7 +11,7 @@ package org.pong.mvcs.service.assets
 	 * 
 	 * @see org.pong.utils.graphic.GraphicUtils
 	 * 
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 */
 	public class AirAssetsService implements IAssetsService
 	{

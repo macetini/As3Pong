@@ -2,7 +2,7 @@ package robotlegs.bender.bundles.mvcs
 {
 	/**
 	 * ...
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 */
 	import robotlegs.bender.extensions.signalCommandMap.SignalCommandMapExtension;
 	import robotlegs.bender.framework.api.IContext;

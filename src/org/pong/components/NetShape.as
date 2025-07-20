@@ -7,7 +7,7 @@ package org.pong.components
 	 * Custom Shape Component that should represent the net in Pong game. Basically, just straight white line in the
 	 * middle of screen.
 	 * 
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 * 
 	 */
 	

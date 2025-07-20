@@ -7,7 +7,7 @@ package org.pong.mvcs.model.signals
 	 * Signal dispatched every frame if Starling game model is in GameState.PLAY state. Signal Calls <code>update()</code> method
 	 * on every view.
 	 * 
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 */
 	public class UpdateViewsSignal extends Signal 
 	{	

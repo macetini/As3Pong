@@ -7,7 +7,7 @@ package org.pong.mvcs.model
 	 * 
 	 * The BallModel contains necessary logic to direct movement of the Ball view.
 	 * 
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 */
 	
 	public class BallModel 

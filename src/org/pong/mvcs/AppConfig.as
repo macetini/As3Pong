@@ -10,7 +10,7 @@ package org.pong.mvcs
 	 *
 	 * AppConfig is Robotlegs internal context. All DI mapped data is done here.
 	 *
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 */
 	public class AppConfig implements IConfig
 	{

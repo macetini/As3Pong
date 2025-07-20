@@ -5,7 +5,7 @@ package org.pong.mvcs.view.mediator
 	/**
 	 * Paddle mediator.
 	 * 
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 */
 	public class DefaultPaddleMediator extends AbstractMediator 
 	{

@@ -7,7 +7,7 @@ package org.pong.mvcs.controller.bootstraps
 	 * Bootstrap dependency injector for all Managers.
 	 * 
 	 * @see org.pong.mvcs.AppConfig
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 */
 	
 	public class BootstrapManagers 

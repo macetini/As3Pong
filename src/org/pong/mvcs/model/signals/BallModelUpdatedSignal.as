@@ -7,7 +7,7 @@ package org.pong.mvcs.model.signals
 	 * 
 	 * Signal dispatched from Ball Model to Ball View when model finishes it's work - recalculation of new Ball direction.
 	 * 
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 */
 	public class BallModelUpdatedSignal extends Signal 
 	{

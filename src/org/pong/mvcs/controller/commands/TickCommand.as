@@ -8,7 +8,7 @@ package org.pong.mvcs.controller.commands
 	 * Signals are dispatched inside <code>Event.ENTER_FRAME</code> handler, so basically it is called once per 
 	 * every frame.
 	 * 
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 */
 	
 	public class TickCommand 

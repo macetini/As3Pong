@@ -8,7 +8,7 @@ package org.pong.mvcs.view
 	 * 
 	 * AbstractMediator is base view for all screen components.
 	 * 
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 */
 	public class AbstractScreenView extends Screen implements IView
 	{	

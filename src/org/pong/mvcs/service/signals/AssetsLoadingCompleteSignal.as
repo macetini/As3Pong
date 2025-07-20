@@ -7,7 +7,7 @@ package org.pong.mvcs.service.signals
 	 * 
 	 * @see org.pong.mvcs.service.assets.AirAssetsService.loadAssetsProgress(ratio:Number):void
 	 * 
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 */
 	public class AssetsLoadingCompleteSignal extends Signal 
 	{

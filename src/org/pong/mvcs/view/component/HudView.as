@@ -8,7 +8,7 @@ package org.pong.mvcs.view.component
 	/**
 	 * HUD that displays left and right player scores.
 	 * 
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 */
 	public class HudView extends AbstractScreenView 
 	{

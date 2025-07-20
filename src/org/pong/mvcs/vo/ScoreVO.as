@@ -4,7 +4,7 @@ package org.pong.mvcs.vo
 	 * 
 	 * Hud view value object
 	 * 
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 */
 	public class ScoreVO 
 	{

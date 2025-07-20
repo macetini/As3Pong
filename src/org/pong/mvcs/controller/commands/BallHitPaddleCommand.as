@@ -6,7 +6,7 @@ package org.pong.mvcs.controller.commands
 	 * 
 	 * Command that calls new direction calculations when <code>BallView</code> hits the paddle.
 	 * 
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 */
 	
 	public class BallHitPaddleCommand 

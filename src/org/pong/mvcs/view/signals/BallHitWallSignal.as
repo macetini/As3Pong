@@ -7,7 +7,7 @@ package org.pong.mvcs.view.signals
 	 * 
 	 * Disptched by BallView once the ball hits stage border. Used to deremine new ball direction.
 	 * 
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 */
 	public class BallHitWallSignal extends Signal 
 	{

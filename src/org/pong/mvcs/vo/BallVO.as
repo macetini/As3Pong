@@ -3,7 +3,7 @@ package org.pong.mvcs.vo
 	/**
 	 * BallView Value object
 	 * 
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 */
 	public final class BallVO 
 	{

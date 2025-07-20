@@ -7,7 +7,7 @@ package org.pong.mvcs.model
 	 * 
 	 * Hud model that keeps track of game score.
 	 * 
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 */
 	public class HudModel 
 	{

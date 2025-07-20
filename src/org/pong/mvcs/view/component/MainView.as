@@ -10,7 +10,7 @@ package org.pong.mvcs.view.component
 	 * 
 	 * MainView holds all interactive componets. It is a place where the game is played.
 	 * 
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 */
 	public class MainView extends AbstractScreenView
 	{

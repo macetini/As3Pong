@@ -12,7 +12,7 @@ package org.pong.mvcs.view.mediator
 	/**
 	 * View Mediator - handles signal disptching.
 	 * 
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 */
 	
 	public class BallMediator extends AbstractMediator

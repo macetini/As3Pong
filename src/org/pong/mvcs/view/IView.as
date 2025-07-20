@@ -6,7 +6,7 @@ package org.pong.mvcs.view
 	 * 
 	 * Interface that describes view component behaviour.
 	 * 
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 */
 	public interface IView 
 	{

@@ -8,7 +8,7 @@ package org.pong.mvcs.controller.commands
 	 * reached through GraphicUtils.
 	 *
 	 * @see org.pong.utils.graphic.GraphicUtils
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 */
 	
 	public class AssetsLoadingCompleteCommand

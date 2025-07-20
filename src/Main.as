@@ -17,7 +17,7 @@ package
 	
 	/**
 	 * ...
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 */
 	
 	[SWF(width = "800", height = "600", frameRate = "60", backgroundColor = "#4A4137")]

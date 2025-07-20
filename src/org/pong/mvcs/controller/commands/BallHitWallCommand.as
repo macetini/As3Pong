@@ -7,7 +7,7 @@ package org.pong.mvcs.controller.commands
 	 * 
 	 * Command that calls new direction calculation when <code>BallView</code> hits the borders of stage.
 	 * 
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 */
 	
 	public class BallHitWallCommand 

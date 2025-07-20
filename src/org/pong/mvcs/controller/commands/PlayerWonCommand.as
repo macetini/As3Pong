@@ -7,7 +7,7 @@ package org.pong.mvcs.controller.commands
 	 * 
 	 * Command that calls HUD updates and resets the ball position once the match is won.
 	 * 
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 */
 	
 	public class PlayerWonCommand 

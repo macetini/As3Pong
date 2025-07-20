@@ -8,7 +8,7 @@ package org.pong.mvcs.controller.commands
 	 * <code>Loading Screen</code> finishes initial assets loading, there is a quick animation between screens.
 	 * When this animation is over StarlingGameModel needs to be informed.
 	 * 
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 */
 	
 	public class ScreenTransitionCompleteCommand 

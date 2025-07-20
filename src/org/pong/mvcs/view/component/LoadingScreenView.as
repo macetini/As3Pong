@@ -8,7 +8,7 @@ package org.pong.mvcs.view.component
 	/**
 	 * Loading screen is first screen show by screen navigator. It's purpouse is to show user assets loading progress.
 	 * 
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 */
 	public class LoadingScreenView extends AbstractScreenView 
 	{

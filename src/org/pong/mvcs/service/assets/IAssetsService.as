@@ -5,7 +5,7 @@ package org.pong.mvcs.service.assets
 	 * 
 	 * Interface that declares aseets loading behavior.
 	 * 
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 */
 	
 	public interface IAssetsService 

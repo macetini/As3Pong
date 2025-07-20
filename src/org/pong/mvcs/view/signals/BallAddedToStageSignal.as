@@ -8,7 +8,7 @@ package org.pong.mvcs.view.signals
 	 * 
 	 * Disptched by BallView once added to stage. Used to determine ball view inital values.
 	 * 
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 */
 	public class BallAddedToStageSignal extends Signal 
 	{

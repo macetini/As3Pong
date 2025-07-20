@@ -7,7 +7,7 @@ package org.pong.utils.graphic
 	/**
 	 * Graphic util provides read only access to graphic resources.
 	 * 
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 */
 	public final class GraphicUtils
 	{

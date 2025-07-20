@@ -7,7 +7,7 @@ package org.pong.mvcs.model
 	 * StarlingGameModel contains game state logic. Based on game States it decides should game objects be
 	 * updated or not.
 	 * 
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 */
 	
 	public class StarlingGameModel 

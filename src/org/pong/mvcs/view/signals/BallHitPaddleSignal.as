@@ -7,7 +7,7 @@ package org.pong.mvcs.view.signals
 	 * 
 	 * Disptached by BallView once the ball hits Paddle. Used to deremine new ball direction.
 	 * 
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 */
 	public class BallHitPaddleSignal extends Signal 
 	{

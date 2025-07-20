@@ -7,7 +7,7 @@ package org.pong.mvcs.service.signals
 	 * Dispatched during assets loading progress. Contains loading progress information.
 	 * 
 	 * @see org.pong.mvcs.service.assets.AirAssetsService.loadAssetsProgress(ratio:Number):void
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 */
 	public class AssetsLoadingProgressSignal extends Signal 
 	{

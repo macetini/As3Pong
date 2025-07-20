@@ -13,7 +13,7 @@ package org.pong.mvcs.view.component
 	 * touches one of vertical bounds than it should restart it's position. BallModel provides new directions based on provided values. BalView 
 	 * it self just moves ball in one direction, it doesn't calculate any direction logic.
 	 * 
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 */
 	public class BallView extends AbstractSpriteView
 	{

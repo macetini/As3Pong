@@ -7,7 +7,7 @@ package org.pong.mvcs.model.signals
 	 * 
 	 * Signal dispached to view when Hud model finishes calculation of new score.
 	 * 
-	 * @author mc
+	 * @author Marko (Cetinic) Cettina
 	 */
 	public class HudModelUpdatedSignal extends Signal 
 	{
