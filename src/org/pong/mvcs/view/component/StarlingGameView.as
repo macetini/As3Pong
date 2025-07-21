@@ -32,12 +32,12 @@ package org.pong.mvcs.view.component
 		private const MAIN_SCREEN:String = "mainScreen";
 		
 		/**
-		 * Duartion of transition animation between screens.
+		 * Duration of transition animation between screens.
 		 */
 		private const _transitionDuration:Number = 0.4;
 		
 		/**
-		 * Tick signal is disptched once every frame. It is a update signal that all views listen to.
+		 * Tick signal is dispatched once every frame. It is a update signal that all views listen to.
 		 */
 		private var _tickSignal:ISignal;
 		
@@ -66,7 +66,7 @@ package org.pong.mvcs.view.component
 			setTheme();
 			setNavigator();
 			setSignals();
-			setEventListenders();
+			setEventListeners();
 			setTransitionManager();
 		}
 		
@@ -77,7 +77,7 @@ package org.pong.mvcs.view.component
 		 */
 		private function setNavigator():void
 		{
-			this.addScreen(LOADING_SCREEN, new ScreenNavigatorItem(LoadingScreenView, {onLoadingCompleate: MAIN_SCREEN}));			
+			this.addScreen(LOADING_SCREEN, new ScreenNavigatorItem(LoadingScreenView, {onLoadingComplete: MAIN_SCREEN}));			
 			this.addScreen(MAIN_SCREEN, new ScreenNavigatorItem(MainView));
 		}
 		
@@ -102,11 +102,11 @@ package org.pong.mvcs.view.component
 		}
 		
 		/**
-		 * Listners setter
+		 * Listeners setter
 		 * 
 		 * @private
 		 */
-		private function setEventListenders():void
+		private function setEventListeners():void
 		{
 			this.addEventListener(Event.ADDED_TO_STAGE, addedToStageEventHandler);
 			this.addEventListener(Event.REMOVED_FROM_STAGE, onRemovedFromStage);
@@ -182,7 +182,7 @@ package org.pong.mvcs.view.component
 		
 		/**
 		 * 
-		 * Dispatches new _tickSignal signale every frame.
+		 * Dispatches new _tickSignal signal every frame.
 		 * 
 		 * @event tickSignal once a frame
 		 * 

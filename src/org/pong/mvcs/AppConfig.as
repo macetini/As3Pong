@@ -34,7 +34,7 @@ package org.pong.mvcs
 		public var mediatorMap:IMediatorMap;
 		
 		/**
-		 * Configure method bootstraps injection in multiple fragmated classes
+		 * Configure method bootstraps injection in multiple fragmented classes
 		 */
 		public function configure():void
 		{
