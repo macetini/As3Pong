@@ -124,7 +124,8 @@ package robotlegs.bender.extensions.localEventMap.impl
 
 			var eventConfig:EventMapConfig;
 			var dispatcher:IEventDispatcher;
-			while (eventConfig = currentListeners.pop())
+			eventConfig = currentListeners.pop();
+			while (eventConfig != null)
 			{
 				if (!_suspended)
 				{
@@ -132,6 +133,7 @@ package robotlegs.bender.extensions.localEventMap.impl
 					dispatcher.removeEventListener(eventConfig.eventString, eventConfig.callback, eventConfig.useCapture);
 				}
 			}
+			eventConfig = currentListeners.pop();
 		}
 
 		/**
@@ -146,11 +148,14 @@ package robotlegs.bender.extensions.localEventMap.impl
 
 			var eventConfig:EventMapConfig;
 			var dispatcher:IEventDispatcher;
-			while (eventConfig = _listeners.pop())
+			eventConfig = _suspendedListeners.pop();
+			while (eventConfig != null)
 			{
 				dispatcher = eventConfig.dispatcher;
 				dispatcher.removeEventListener(eventConfig.eventString, eventConfig.callback, eventConfig.useCapture);
 				_suspendedListeners.push(eventConfig);
+
+				eventConfig = _suspendedListeners.pop();
 			}
 		}
 
@@ -166,11 +171,14 @@ package robotlegs.bender.extensions.localEventMap.impl
 
 			var eventConfig:EventMapConfig;
 			var dispatcher:IEventDispatcher;
-			while (eventConfig = _suspendedListeners.pop())
+			eventConfig = _suspendedListeners.pop();
+			while (eventConfig != null)
 			{
 				dispatcher = eventConfig.dispatcher;
 				dispatcher.addEventListener(eventConfig.eventString, eventConfig.callback, eventConfig.useCapture);
 				_listeners.push(eventConfig);
+
+				eventConfig = _suspendedListeners.pop();
 			}
 		}
 

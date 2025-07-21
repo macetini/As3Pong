@@ -144,8 +144,8 @@ class MessageRunner
 		// Try to keep things synchronous with a simple loop,
 		// forcefully breaking out for async handlers and recursing.
 		// We do this to avoid increasing the stack depth unnecessarily.
-		var handler:Function;
-		while (handler = _handlers.pop())
+		var handler:Function = _handlers.pop();
+		while (handler != null)
 		{
 			if (handler.length == 0) // sync handler: ()
 			{
@@ -180,6 +180,8 @@ class MessageRunner
 			{
 				throw new Error("Bad handler signature");
 			}
+
+			handler = _handlers.pop()
 		}
 		// If we got here then this loop finished synchronously.
 		// Nobody broke out, so we are done.
