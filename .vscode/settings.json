@@ -1,9 +1,13 @@
 {
 	"as3mxml.sdk.framework": "c:\\Development\\sdks\\harman\\installs\\AIRSDK_51.2.1",
 	"cSpell.words": [
+		"avmplus",
 		"cosntr",
+		"maximizable",
+		"minimizable",
 		"mvcs",
 		"osflash",
-		"robotlegs",		
+		"robotlegs",
+		"swiftsuspenders"
 	]
 }

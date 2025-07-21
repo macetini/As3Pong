@@ -7,7 +7,7 @@ bin-release/
 # Other files and folders
 .settings/
 
-# Visaul Studio Code Settings
+# Visual Studio Code Settings
 .vscode/
 
 # Executables
