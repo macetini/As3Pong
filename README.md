@@ -6,9 +6,11 @@ Feathers<br/>
 Robotlegs<br/>
 Swiftsuspenders<br/>
 
-Welcome back down to the memory lane :) ActionScript 3 experiment I made in 2014.<br/>
-Small Pong clone that utilizes the Robotlegs MVC pattern with Stage3D and Signals.<br/>
-Upgraded Harman Adobe Air (51.2.1.0) and switched it to Visual Studio Code.<br/>
+Welcome back down to the memory lane :)
+
+ActionScript 3 experiment I made in 2014. Small Pong clone that utilizes the Robotlegs MVC pattern with Stage3D and Signals.
+
+EDIT 2025: Upgraded Harman Adobe Air (51.2.1.0) and switched it to Visual Studio Code.<br/>
 
 Used source instead of precompiled libraries, as I tweaked a few things.
 
