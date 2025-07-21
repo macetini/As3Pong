@@ -11,7 +11,6 @@ package org.pong.mvcs.controller.bootstraps
 	 * @see org.pong.mvcs.AppConfig
 	 * @author Marko (Cetinic) Cettina
 	 */
-  
 	public class BootstrapServices
     {
 		

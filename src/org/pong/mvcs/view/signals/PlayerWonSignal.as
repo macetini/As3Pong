@@ -4,7 +4,7 @@ package org.pong.mvcs.view.signals
 	
 	/**
 	 * 
-	 * Dispatched by BallView once the match ended. Used to deremine new ball direction and calculate new score.
+	 * Dispatched by BallView once the match ended. Used to determine new ball direction and calculate new score.
 	 *
 	 * @author Marko (Cetinic) Cettina
 	 */
@@ -12,7 +12,7 @@ package org.pong.mvcs.view.signals
 	{
 		
 		/**
-		 * @param Array consiting of BallVO initial value object, ScoreVO
+		 * @param Array constituting of BallVO initial value object, ScoreVO
 		 */
 		public function PlayerWonSignal() 
 		{

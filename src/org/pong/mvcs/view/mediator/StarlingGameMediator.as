@@ -6,7 +6,7 @@ package org.pong.mvcs.view.mediator
 	
 	/**
 	 * 
-	 * Starling Game mediator - every frame it dipatches Tick signal that is handeled by every game view.
+	 * Starling Game mediator - every frame it dispatches Tick signal that is handled by every game view.
 	 * 
 	 * @author Marko (Cetinic) Cettina
 	 */
@@ -68,7 +68,7 @@ package org.pong.mvcs.view.mediator
 		
 		/**
 		 * 
-		 * Compoenet view.
+		 * Component view.
 		 * 
 		 * @private
 		 */

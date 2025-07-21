@@ -14,7 +14,7 @@ package org.pong.mvcs.view.component
 	public class AbstractPaddleView extends AbstractSpriteView 
 	{		
 		/**
-		 * Paddle speed of movment.
+		 * Paddle speed of movement.
 		 */
 		private var _velocity:uint = 500;
 		
@@ -108,7 +108,7 @@ package org.pong.mvcs.view.component
 			super.added();
 	
 			setGraphic();
-			setInitaialValues();
+			setInitialValues();
 			setKeyListeners();
 		}
 		
@@ -127,9 +127,9 @@ package org.pong.mvcs.view.component
 		/**
 		 * Abstract method - used by derived classes to define initial values. For example position.
 		 */
-		public function setInitaialValues():void
+		public function setInitialValues():void
 		{
-			throw("setInitaialValues() must be override as it is an abstract method.");
+			throw("setInitialValues() must be override as it is an abstract method.");
 		}
 		
 		/**

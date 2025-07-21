@@ -4,7 +4,7 @@ package org.pong.mvcs.view.signals
 	
 	/**
 	 * 
-	 * Disptched by LoadingView once it is added to stage. Used to initiates loading assets.
+	 * Dispatched by LoadingView once it is added to stage. Used to initiates loading assets.
 	 * 
 	 * @author Marko (Cetinic) Cettina
 	 */

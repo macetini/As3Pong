@@ -10,7 +10,7 @@ package org.pong.mvcs.view.mediator
 	public class DefaultPaddleMediator extends AbstractMediator 
 	{
 		/**
-		 * const
+		 * constr
 		 */
 		public function DefaultPaddleMediator() 
 		{

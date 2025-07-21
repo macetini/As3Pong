@@ -4,7 +4,7 @@ package org.pong.mvcs.view
 	
 	/**
 	 * 
-	 * Interface that describes view component behaviour.
+	 * Interface that describes view component behavior.
 	 * 
 	 * @author Marko (Cetinic) Cettina
 	 */

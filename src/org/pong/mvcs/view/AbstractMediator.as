@@ -6,7 +6,7 @@ package org.pong.mvcs.view
 	
 	/**
 	 * 
-	 * AbstractMediator is base mediator for all Screen View components.
+	 * Base mediator for all Screen View components.
 	 * 
 	 * @author Marko (Cetinic) Cettina
 	 */
@@ -14,13 +14,13 @@ package org.pong.mvcs.view
 	public class AbstractMediator extends SignalMediator 
 	{	
 		/**
-		 * Update view signal is responset Tick signl, it calls view update function.
+		 * Update view signal is response Tick signal, it calls view update function.
 		 */
 		[Inject]
 		public var updateViewSignal:UpdateViewsSignal;
 		
 		/**
-		 * GraphicUtils is AssetsManager util waper that privides easy access to graphic resources.
+		 * GraphicUtils is AssetsManager util warper that provides easy access to graphic resources.
 		 */
 		[Inject]
 		public var graphicUtils:GraphicUtils;
@@ -34,7 +34,7 @@ package org.pong.mvcs.view
 		}
 		
 		/**
-		 * Initalize function - used to set inital values.
+		 * Initialize function - used to set initial values.
 		 */
 		override public function initialize():void
 		{

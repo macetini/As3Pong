@@ -14,7 +14,7 @@ package org.pong.mvcs.model
 	{
 		/**
 		 * 
-		 * Dispached if GameState.PLAY.
+		 * Dispatched if GameState.PLAY.
 		 * 
 		 * @see updateViewObjects()
 		 */
@@ -24,7 +24,7 @@ package org.pong.mvcs.model
 		/**
 		 * Current state of the game.
 		 * 
-		 * @default Dfaults to <code>null</code>
+		 * @default Defaults to <code>null</code>
 		 * @see org.pong.mvcs.model.modelHelper.GameState
 		 */
 		private var _gameState:GameState;
@@ -35,7 +35,7 @@ package org.pong.mvcs.model
 		}
 		
 		/**
-		 *  Metod that sets <code>GameState.ASSETS_LOADING state.
+		 *  Method that sets <code>GameState.ASSETS_LOADING state.
 		 * 
 		 * @see org.pong.mvcs.model.modelHelper.GameState
 		 */
@@ -47,7 +47,7 @@ package org.pong.mvcs.model
 		
 		
 		/**
-		 *  Metod that sets <code>GameState.SCREEN_TRANSITION state.
+		 *  Method that sets <code>GameState.SCREEN_TRANSITION state.
 		 * 
 		 * @see org.pong.mvcs.model.modelHelper.GameState
 		 */
@@ -58,7 +58,7 @@ package org.pong.mvcs.model
 		}
 		
 		/**
-		 *  Metod that sets <code>GameState.PLAY state.
+		 *  Method that sets <code>GameState.PLAY state.
 		 * 
 		 * @see org.pong.mvcs.model.modelHelper.GameState
 		 */
@@ -74,7 +74,7 @@ package org.pong.mvcs.model
 		 * responds to this signal after it checks game state. If application is loading assets, or if it is in state of screen transition
 		 * then no objects on stage will be updated - the Tick signal won't be responded to.
 		 * 
-		 * @event updateViewSignal() dispached if game state GameState.Play
+		 * @event updateViewSignal() dispatched if game state GameState.Play
 		 * 
 		 * @param	passedTime Time passed since the last frame/signal.
 		 * 

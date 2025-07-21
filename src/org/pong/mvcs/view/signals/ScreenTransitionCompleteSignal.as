@@ -4,7 +4,7 @@ package org.pong.mvcs.view.signals
 	
 	/**
 	 * 
-	 * Dispatched by StarligStageView once screen transition is done. Used to change from loading game state to 
+	 * Dispatched by Starling Stage View once screen transition is done. Used to change from loading game state to
 	 * transition game state.
 	 * 
 	 * @author Marko (Cetinic) Cettina

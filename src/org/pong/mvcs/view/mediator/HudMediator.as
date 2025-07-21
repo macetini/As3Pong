@@ -27,7 +27,7 @@ package org.pong.mvcs.view.mediator
 		}
 		
 		/**
-		 * Iternal initialization logic.
+		 * Internal initialization logic.
 		 * 
 		 * @private
 		 */

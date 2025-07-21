@@ -21,13 +21,13 @@ package org.pong.mvcs.view.mediator
 		public var startLoadingAssetsSignal:StartLoadingAssetsSignal;
 		
 		/**
-		 * Dispatched multiple times durring assets loading progress.
+		 * Dispatched multiple times during assets loading progress.
 		 */
 		[Inject]
 		public var assetsLoadingProgressSignal:AssetsLoadingProgressSignal;
 		
 		/**
-		 * Dispatche after assets finished loading.
+		 * Dispatched after assets finished loading.
 		 */
 		[Inject]
 		public var assetsLoadingCompleteSignal:AssetsLoadingCompleteSignal;
@@ -99,7 +99,7 @@ package org.pong.mvcs.view.mediator
 		 */
 		private function assetsLoadingProgress(ratio:Number):void
 		{
-			view.setProgreesBar(ratio);
+			view.setProgressBar(ratio);
 		}
 		
 		/**
@@ -107,7 +107,7 @@ package org.pong.mvcs.view.mediator
 		 */
 		private function assetsLoadingComplete():void
 		{
-			view.onLoadingCompleate.dispatch();
+			view.onLoadingComplete.dispatch();
 		}
 		
 		/**

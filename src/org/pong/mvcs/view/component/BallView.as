@@ -42,9 +42,7 @@ package org.pong.mvcs.view.component
 		 * Ball movement direction along y axis.
 		 */
 		private var _directionY:int = 0;
-		
-		private var _hitByPaddleFlag:Boolean
-		
+
 		/**
 		 * Ball value object.
 		 */
@@ -75,7 +73,7 @@ package org.pong.mvcs.view.component
 		 * 
 		 * @see update()
 		 */
-		private var _hitByPaddelFlag:Boolean = false;
+		private var _hitByPaddleFlag:Boolean = false;
 	
 		/**
 		 * addedToStageSignal getter. Read only.
@@ -110,19 +108,19 @@ package org.pong.mvcs.view.component
 		}
 		
 		/**
-		 * hitByPaddelFlag getter
+		 * hitByPaddleFlag getter
 		 */
-		public function get hitByPaddelFlag():Boolean 
+		public function get hitByPaddleFlag():Boolean 
 		{
-			return _hitByPaddelFlag;
+			return _hitByPaddleFlag;
 		}
 		
 		/**
-		 * hitByPaddelFlag setter
+		 * hitByPaddleFlag setter
 		 */
-		public function set hitByPaddelFlag(value:Boolean):void 
+		public function set hitByPaddleFlag(value:Boolean):void 
 		{
-			_hitByPaddelFlag = value;
+			_hitByPaddleFlag = value;
 		}
 		
 		/**
@@ -172,14 +170,14 @@ package org.pong.mvcs.view.component
 		/**
 		 * Added handler. Sets graphics and initial values.
 		 * 
-		 * @event ballAddedToStageSignal is dispached when called.
+		 * @event ballAddedToStageSignal is dispatched when called.
 		 */
 		override public function added():void
 		{
 			super.added();
 			
 			setGraphic();
-			setInitaialValues();
+			setInitialValues();
 			
 			_ballAddedToStageSignal.dispatch(_vo);
 		}
@@ -199,9 +197,9 @@ package org.pong.mvcs.view.component
 		}
 		
 		/**
-		 * Inital values setter. Sets ball view to the middle of screen.
+		 * Initial values setter. Sets ball view to the middle of screen.
 		 */
-		public function setInitaialValues():void
+		public function setInitialValues():void
 		{
 			this.x = stage.width / 2 - this.width / 2 ;
 			this.y = stage.height / 2 - this.height / 2;
@@ -225,7 +223,7 @@ package org.pong.mvcs.view.component
 			if (checkForInitialDelay(passedTime))
 				return;
 				
-			if (_hitByPaddelFlag)
+			if (_hitByPaddleFlag)
 			{
 				sendBallHitPaddleSignal();
 				return;
@@ -243,7 +241,7 @@ package org.pong.mvcs.view.component
 		 * Used to allow small delay between matches or when game starts.
 		 * 
 		 * @param	passedTime
-		 * @return <code>true</code> if time run out eles <code>false</code>.
+		 * @return <code>true</code> if time run out else <code>false</code>.
 		 */
 		private function checkForInitialDelay(passedTime:Number):Boolean
 		{
@@ -257,14 +255,14 @@ package org.pong.mvcs.view.component
 		
 		/**
 		 * 
-		 * Value object updater. Value object will be set to current view values. Used before sending vaule object
+		 * Value object updater. Value object will be set to current view values. Used before sending value object
 		 * to the model. This way the model will be provided with latest values.
 		 * 
 		 * @return Updated value object.
 		 */
 		private function updateNewVO():BallVO
 		{
-			//TODO - this needs to be dynimaic
+			//TODO - this needs to be dynamic
 			
 			trace(this + " updateNewVO()");
 			var vo:BallVO = new BallVO;
@@ -293,7 +291,7 @@ package org.pong.mvcs.view.component
 		 */
 		private function sendBallHitPaddleSignal():void
 		{
-			_hitByPaddelFlag = false;
+			_hitByPaddleFlag = false;
 			
 			_ballHitPaddleSignal.dispatch(updateNewVO());
 		}
@@ -337,7 +335,7 @@ package org.pong.mvcs.view.component
 			
 			_initialDelay = _initialDelayAfterReset;
 			
-			setInitaialValues();
+			setInitialValues
 			
 			_playerWonSignal.dispatch([leftPlayerWon, _vo]);
 		}

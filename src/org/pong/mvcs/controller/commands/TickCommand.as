@@ -14,7 +14,7 @@ package org.pong.mvcs.controller.commands
 	public class TickCommand 
 	{
 		[Inject]
-		public var starlinGameModel:StarlingGameModel;
+		public var starlingGameModel:StarlingGameModel;
 		
 		/**
 		 * 
@@ -22,7 +22,7 @@ package org.pong.mvcs.controller.commands
 		 */
 		public function execute(passedTime:Number):void
 		{		
-			starlinGameModel.updateViewObjects(passedTime);
+			starlingGameModel.updateViewObjects(passedTime);
 		}
 	}
 }

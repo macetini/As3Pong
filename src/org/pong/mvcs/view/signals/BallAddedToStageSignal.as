@@ -6,7 +6,7 @@ package org.pong.mvcs.view.signals
 	
 	/**
 	 * 
-	 * Disptched by BallView once added to stage. Used to determine ball view inital values.
+	 * Dispatched by BallView once added to stage. Used to determine ball view initial values.
 	 * 
 	 * @author Marko (Cetinic) Cettina
 	 */

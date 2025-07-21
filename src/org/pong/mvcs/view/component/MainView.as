@@ -4,11 +4,10 @@ package org.pong.mvcs.view.component
 	import org.pong.mvcs.view.AbstractScreenView;
 	import org.pong.mvcs.view.component.paddle.LeftPaddleView;
 	import org.pong.mvcs.view.component.paddle.RightPaddleView;
-	import starling.display.Shape;
 	
 	/**
 	 * 
-	 * MainView holds all interactive componets. It is a place where the game is played.
+	 * MainView holds all interactive components. It is a place where the game is played.
 	 * 
 	 * @author Marko (Cetinic) Cettina
 	 */
@@ -74,7 +73,7 @@ package org.pong.mvcs.view.component
 		}
 		
 		/**
-		 * Call when adding all game componenets.
+		 * Call when adding all game components.
 		 * 
 		 * @private
 		 */
@@ -98,24 +97,24 @@ package org.pong.mvcs.view.component
 		{
 			super.update(passedTime);
 			
-			checkForBallCoalision();
+			checkForBallCollision();
 		}
 		
 		/**
 		 * Will check if ball collides with any of the paddles.
 		 */
-		private function checkForBallCoalision():void
+		private function checkForBallCollision():void
 		{
 			if (checkBallForPaddleHit(_ball, _leftPaddle))
 			{
 				_ball.x = _leftPaddle.x + _leftPaddle.width;
-				_ball.hitByPaddelFlag = true;
+				_ball.hitByPaddleFlag = true;
 			}
 			
 			if (checkBallForPaddleHit(_ball, _rightPaddle))
 			{
 				_ball.x = _rightPaddle.x - _ball.width;
-				_ball.hitByPaddelFlag = true;
+				_ball.hitByPaddleFlag = true;
 			}
 		}
 		

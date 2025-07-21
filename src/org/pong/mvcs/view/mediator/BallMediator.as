@@ -10,7 +10,7 @@ package org.pong.mvcs.view.mediator
 	import org.pong.mvcs.vo.BallVO;
 	
 	/**
-	 * View Mediator - handles signal disptching.
+	 * View Mediator - handles signal dispatching.
 	 * 
 	 * @author Marko (Cetinic) Cettina
 	 */
@@ -24,7 +24,7 @@ package org.pong.mvcs.view.mediator
 		public var ballAddedToStageSignal:BallAddedToStageSignal;
 		
 		/**
-		 * Disptched when ball hits the wall.
+		 * Dispatched when ball hits the wall.
 		 */
 		[Inject]
 		public var ballHitWallSignal:BallHitWallSignal;

@@ -5,7 +5,7 @@ package org.pong.mvcs.view.signals
 	
 	/**
 	 * 
-	 * Disptched by BallView once the ball hits stage border. Used to deremine new ball direction.
+	 * Dispatched by BallView once the ball hits stage border. Used to determine new ball direction.
 	 * 
 	 * @author Marko (Cetinic) Cettina
 	 */

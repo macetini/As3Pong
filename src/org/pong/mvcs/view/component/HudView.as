@@ -28,7 +28,7 @@ package org.pong.mvcs.view.component
 		private var _hudColor:uint = 0xFFFFFF;
 		
 		/**
-		 * Inital hud value - zero.
+		 * Initial hud value - zero.
 		 */
 		private var _initHudLabelValue:uint = 0;
 		
@@ -50,7 +50,7 @@ package org.pong.mvcs.view.component
 		/**
 		 * Numerical representation of right score.
 		 */
-		private var _righHudLabelValue:uint;
+		private var _rightHudLabelValue:uint;
 		
 		/**
 		 * Label distance from vertical borders.
@@ -113,21 +113,21 @@ package org.pong.mvcs.view.component
 		{
 			super.added();
 			
-			setInitaialValues();
+			setInitialValues();
 			addChildren();
 		}
 		
 		/**
 		 * Initial values setter.
 		 */
-		public function setInitaialValues():void
+		public function setInitialValues():void
 		{
 			_vo = new ScoreVO;
 			
 			_leftHudLabel.text = _initHudLabelValue.toString();
 			_rightHudLabel.text = _initHudLabelValue.toString();
 			
-			_leftHudLabelValue = _righHudLabelValue = _initHudLabelValue;
+			_leftHudLabelValue = _rightHudLabelValue = _initHudLabelValue;
 		}
 		
 		/**
@@ -181,8 +181,8 @@ package org.pong.mvcs.view.component
 				
 			_leftHudLabel.text = _leftHudLabelValue.toString();
 			
-			_righHudLabelValue = _vo.rightScore;
-			_rightHudLabel.text = _righHudLabelValue.toString();
+			_rightHudLabelValue = _vo.rightScore;
+			_rightHudLabel.text = _rightHudLabelValue.toString();
 		}
 	}
 

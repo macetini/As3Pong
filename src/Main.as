@@ -23,15 +23,14 @@ package
 	[SWF(width = "800", height = "600", frameRate = "60", backgroundColor = "#4A4137")]
 	
 	public class Main extends Sprite
-	{
-		protected var _context:IContext;
-		
+	{	
 		public function Main():void
 		{
-			if (stage)
+			if (stage != null) {
 				init();
-			else
+			} else {
 				this.addEventListener(Event.ADDED_TO_STAGE, init);
+			}
 		}
 		
 		private function init(e:Event=null):void
@@ -43,7 +42,7 @@ package
 			starling.showStats = true;
 			starling.start();
 			
-			_context = new Context()
+			const context:IContext = new Context()
 			.install(MVCSBundle, StarlingViewMapExtension, SignalCommandMapExtensionBundle)
 			.configure(AppConfig, new ContextView(this), starling);
 		}

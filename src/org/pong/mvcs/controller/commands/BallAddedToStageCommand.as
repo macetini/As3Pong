@@ -10,7 +10,7 @@ package org.pong.mvcs.controller.commands
 	 * @author Marko (Cetinic) Cettina
 	 */
 	
-	public class BallAdedToStageCommand 
+	public class BallAddedToStageCommand
 	{		
 		[Inject]
 		public var ballModel:BallModel;

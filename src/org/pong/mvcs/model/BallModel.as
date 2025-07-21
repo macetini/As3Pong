@@ -19,7 +19,7 @@ package org.pong.mvcs.model
 		public var ballModelUpdatedSignal:BallModelUpdatedSignal;
 		
 		/**
-		 * Value object that containes Ball view values (like direction, velocity etc..)
+		 * Value object that contains Ball view values (like direction, velocity etc..)
 		 */
 		private var _vo:BallVO;
 		
@@ -27,7 +27,7 @@ package org.pong.mvcs.model
 		 * 
 		 * Calculates initial values once Ball view is added to stage.
 		 * 
-		 * @event ballModelUpdatedSignal() dispached when called.
+		 * @event ballModelUpdatedSignal() dispatched when called.
 		 * 
 		 * @param	vo	Initial value object passed from view component.
 		 * */
@@ -47,7 +47,7 @@ package org.pong.mvcs.model
 		 * 
 		 * Calculates new direction once Ball view touches stage border.
 		 * 
-		 * @event ballModelUpdatedSignal dispached when direction recalculated.
+		 * @event ballModelUpdatedSignal dispatched when direction recalculated.
 		 * 
 		 * @param	vo	Value object with the old direction values.
 		 */
@@ -74,7 +74,7 @@ package org.pong.mvcs.model
 		 */
 		private function recalculateBallDirectionAfterWallHit(vo:BallVO):BallVO
 		{
-			// TODO optimaze change direction algoritham
+			// TODO optimize change direction algorithm
 			
 			if (vo.x <= 0)
 			{
@@ -106,7 +106,7 @@ package org.pong.mvcs.model
 		 * 
 		 * Calculates new direction. Called when Ball view collides with Paddle view.
 		 * 
-		 * @event ballModelUpdatedSignal() dispached new direction calculated.
+		 * @event ballModelUpdatedSignal() dispatched new direction calculated.
 		 * 
 		 * @param	vo Value object with the old direction values.
 		 */
@@ -128,7 +128,7 @@ package org.pong.mvcs.model
 		 * 
 		 * Randomizes ball direction once the match has been won.
 		 * 
-		 * @event ballModelUpdatedSignal() dispached when new direction reacquired
+		 * @event ballModelUpdatedSignal() dispatched when new direction reacquired
 		 * 
 		 * @param	vo Value object with the old values.
 		 */

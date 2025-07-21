@@ -21,7 +21,7 @@ package org.pong.mvcs.view.component.paddle
 		 * 
 		 * Definition of upward movement key.
 		 * 
-		 * @return KeyCode that will initiate upward movment of paddle object. Define to move up.
+		 * @return KeyCode that will initiate upward movement of paddle object. Define to move up.
 		 */
 		override protected function setKeyCodeUp():uint
 		{
@@ -32,7 +32,7 @@ package org.pong.mvcs.view.component.paddle
 		 * 
 		 *  Definition of downward movement key.
 		 * 
-		 * @return KeyCode that will initiate downward movment of paddle object. Define to move down.
+		 * @return KeyCode that will initiate downward movement of paddle object. Define to move down.
 		 */
 		override protected function setKeyCodeDown():uint
 		{
@@ -40,9 +40,9 @@ package org.pong.mvcs.view.component.paddle
 		}
 		
 		/**
-		 * Called to set inital view values - like position. 
+		 * Called to set initial view values - like position. 
 		 */
-		override public function setInitaialValues():void
+		override public function setInitialValues():void
 		{
 			this.x = stage.width - xPosition;
 			this.y = stage.height / 2 - this.height / 2;

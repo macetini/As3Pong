@@ -5,7 +5,7 @@ package org.pong.mvcs.model.signals
 	
 	/**
 	 * 
-	 * Signal dispached to view when Hud model finishes calculation of new score.
+	 * Signal dispatched to view when Hud model finishes calculation of new score.
 	 * 
 	 * @author Marko (Cetinic) Cettina
 	 */

@@ -4,7 +4,7 @@ package org.pong.mvcs.view.signals
 	
 	/**
 	 * 
-	 * Disptched by StarlingStageView once a frame. Tick signla is handeled by all views to call update() function.
+	 * Dispatched by StarlingStageView once a frame. Tick signal is handled by all views to call update() function.
 	 * 
 	 * @author Marko (Cetinic) Cettina
 	 */

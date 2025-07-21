@@ -4,7 +4,6 @@ package org.pong.mvcs.controller.bootstraps
 	import org.pong.mvcs.view.component.*;
 	import org.pong.mvcs.view.component.paddle.*;
 	import org.pong.mvcs.view.mediator.*;
-
 	import robotlegs.bender.extensions.mediatorMap.api.IMediatorMap;
 	
 	/**
@@ -15,7 +14,7 @@ package org.pong.mvcs.controller.bootstraps
 	 */
 	
 	public class BootstrapMediatorMap 
-	{		
+	{
 		public function BootstrapMediatorMap(mediatorMap:IMediatorMap) 
 		{
 			mediatorMap.map(StarlingGameView).toMediator(StarlingGameMediator);

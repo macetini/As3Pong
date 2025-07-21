@@ -28,7 +28,7 @@ package org.pong.mvcs.vo
 		public var x:Number;
 		
 		/**
-		 * y coordinate postion
+		 * y coordinate position
 		 */
 		public var y:Number;
 		

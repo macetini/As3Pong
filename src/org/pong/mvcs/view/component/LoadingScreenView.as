@@ -6,7 +6,7 @@ package org.pong.mvcs.view.component
 	import org.osflash.signals.Signal;
 	
 	/**
-	 * Loading screen is first screen show by screen navigator. It's purpouse is to show user assets loading progress.
+	 * Loading screen is first screen show by screen navigator. It's purpose is to show user assets loading progress.
 	 * 
 	 * @author Marko (Cetinic) Cettina
 	 */
@@ -18,14 +18,14 @@ package org.pong.mvcs.view.component
 		private var _progressBar:ProgressBar;
 		
 		/**
-		 * Disptched when loading screen is set to stage.
+		 * Dispatched when loading screen is set to stage.
 		 */
 		private var _startLoadingSignal:ISignal;
 		
 		/**
 		 * Dispatched when all assets have bee loaded.
 		 */
-		private var _onLoadingCompleateSignal:ISignal;
+		private var _onLoadingCompleteSignal:ISignal;
 		
 		/**
 		 * startLoadingSignal getter. Read only
@@ -36,15 +36,15 @@ package org.pong.mvcs.view.component
 		}
 		
 		/**
-		 * onLoadingCompleate signal getter. Read only.
+		 * onLoadingComplete signal getter. Read only.
 		 */
-		public function get onLoadingCompleate():ISignal 
+		public function get onLoadingComplete():ISignal 
 		{
-			return _onLoadingCompleateSignal;
+			return _onLoadingCompleteSignal;
 		}
 		
 		/**
-		 * cosnt
+		 * cosntr
 		 */
 		public function LoadingScreenView() 
 		{
@@ -61,7 +61,7 @@ package org.pong.mvcs.view.component
 		private function setSignals():void
 		{
 			_startLoadingSignal = new Signal;
-			_onLoadingCompleateSignal = new Signal;
+			_onLoadingCompleteSignal = new Signal;
 		}
 		
 		/**
@@ -81,7 +81,7 @@ package org.pong.mvcs.view.component
 		 */
 		private function addLoadingProgressBar():void
 		{			
-			//TODO: create custom ProgreessBar component
+			//TODO: create custom ProgressBar component
 			
 			_progressBar = new ProgressBar();
 			
@@ -104,7 +104,7 @@ package org.pong.mvcs.view.component
 		 * 
 		 * @param	value ratio of loaded assets - from 0 to 1.0.
 		 */
-		public function setProgreesBar(value:Number):void
+		public function setProgressBar(value:Number):void
 		{
 			_progressBar.value = value * 100;
 		}

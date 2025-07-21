@@ -11,9 +11,9 @@ package org.pong.mvcs.controller.bootstraps
 	 * Bootstrap dependency injector for all Commands.
 	 * 
 	 * @see org.pong.mvcs.AppConfig
-	 * 
 	 * @author Marko (Cetinic) Cettina
 	 */
+	
 	public class BootstrapSignalCommandMap 
 	{	
 		public function BootstrapSignalCommandMap(signalCommandMap:ISignalCommandMap) 
@@ -24,7 +24,7 @@ package org.pong.mvcs.controller.bootstraps
 			signalCommandMap.map(AssetsLoadingCompleteSignal).toCommand(AssetsLoadingCompleteCommand);
 			signalCommandMap.map(ScreenTransitionCompleteSignal).toCommand(ScreenTransitionCompleteCommand);
 			
-			signalCommandMap.map(BallAddedToStageSignal).toCommand(BallAdedToStageCommand);
+			signalCommandMap.map(BallAddedToStageSignal).toCommand(BallAddedToStageCommand);
 			
 			signalCommandMap.map(BallHitWallSignal).toCommand(BallHitWallCommand);
 			signalCommandMap.map(BallHitPaddleSignal).toCommand(BallHitPaddleCommand);

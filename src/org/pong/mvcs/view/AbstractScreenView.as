@@ -13,7 +13,7 @@ package org.pong.mvcs.view
 	public class AbstractScreenView extends Screen implements IView
 	{	
 		/**
-		 * GraphicUtils is AssetsManager util waper that privides easy access to graphic resources.
+		 * GraphicUtils is AssetsManager util warper that provides easy access to graphic resources.
 		 */
 		private var _graphicUtils:GraphicUtils;
 		
@@ -74,7 +74,7 @@ package org.pong.mvcs.view
 		}
 
 		/**
-		 * Internal listenr
+		 * Internal listener
 		 * 
 		 * @private
 		 */
@@ -99,7 +99,7 @@ package org.pong.mvcs.view
 		
 		/**
 		 * 
-		 * Called once every frame as respons to Tick signal.
+		 * Called once every frame as response to Tick signal.
 		 * 
 		 * @param	passedTime Time passed since the last tick
 		 */

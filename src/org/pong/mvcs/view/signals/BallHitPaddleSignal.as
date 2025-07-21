@@ -5,7 +5,7 @@ package org.pong.mvcs.view.signals
 	
 	/**
 	 * 
-	 * Disptached by BallView once the ball hits Paddle. Used to deremine new ball direction.
+	 * Dispatched by BallView once the ball hits Paddle. Used to determine new ball direction.
 	 * 
 	 * @author Marko (Cetinic) Cettina
 	 */

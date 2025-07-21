@@ -32,7 +32,7 @@ package org.pong.mvcs.model.modelHelper
 		 * 
 		 * Current state of application.
 		 * 
-		 * @default Deafults to <code>null</code>
+		 * @default Defaults to <code>null</code>
 		 */
 		public var currentState:String = null;
 	}

@@ -1,9 +1,8 @@
 package org.pong.mvcs.service.assets 
 {
-	
 	/**
 	 * 
-	 * Interface that declares aseets loading behavior.
+	 * Interface that declares assets loading behavior.
 	 * 
 	 * @author Marko (Cetinic) Cettina
 	 */
