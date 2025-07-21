@@ -2,11 +2,19 @@
 	"config": "air",
 	"compilerOptions": {
 		"source-path": [
-			"src",
-			"libs_src"
+			"src",			
+
+			"libsSrc/starling/source/",
+			//"libsSrc/feathers/source/",	// Using the lib instead of the source as it seems to be more stable
+			"libsSrc/robotlegs/source/",
+			"libsSrc/avmplus/source/",
+			"libsSrc/adobe/source/",
+			"libsSrc/osflash/source/",
+			"libsSrc/swiftsuspenders/source/"
 		],
-		"library-path": [
-			
+		"library-path": [			
+			"libs/feathers/2.0.1/",
+			"libs/feathers/2.0.1/themes/"
 		],
 		"output": "bin/Pong.swf",
 		"keep-as3-metadata": [

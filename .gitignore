@@ -2,10 +2,13 @@
 bin-debug/
 bin-release/
 [Oo]bj/
-[Bb]in/
+[Bb]in/application.xml
 
 # Other files and folders
 .settings/
+
+# Visaul Studio Code Settings
+.vscode/
 
 # Executables
 *.swf

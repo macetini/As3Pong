@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TextureAtlas imagePath="atlas_1.png">
+	<!--
+	Created with ShoeBox
+	http://renderhjs.net/shoebox/
+	-->
+	<SubTexture name="ball"	x="0"	y="0"	width="25"	height="25" frameX="-0" frameY="-0" frameWidth="25" frameHeight="25"/>
+	<SubTexture name="paddle"	x="26"	y="0"	width="18"	height="112" frameX="-0" frameY="-0" frameWidth="18" frameHeight="112"/>
+</TextureAtlas>
