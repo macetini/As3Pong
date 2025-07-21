@@ -1,6 +1,5 @@
 package org.pong.mvcs.controller.bootstraps 
 {
-	import flash.display.Stage;
 	import org.pong.mvcs.view.component.*;
 	import org.pong.mvcs.view.component.paddle.*;
 	import org.pong.mvcs.view.mediator.*;
