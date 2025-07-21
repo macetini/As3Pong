@@ -1,18 +1,21 @@
 package
 {
-	import flash.display3D.Context3DRenderMode;
-	import org.pong.mvcs.AppConfig;
-	import org.pong.mvcs.view.component.StarlingGameView;
-	import robotlegs.bender.bundles.mvcs.SignalCommandMapExtensionBundle;
-	import robotlegs.bender.extensions.contextView.ContextView;
 	import flash.display.Sprite;
 	import flash.display.StageAlign;
 	import flash.display.StageScaleMode;
+	import flash.display3D.Context3DRenderMode;
 	import flash.events.Event;
+
+	import org.pong.mvcs.AppConfig;
+	import org.pong.mvcs.view.component.StarlingGameView;
+
 	import robotlegs.bender.bundles.mvcs.MVCSBundle;
+	import robotlegs.bender.bundles.mvcs.SignalCommandMapExtensionBundle;
+	import robotlegs.bender.extensions.contextView.ContextView;
+	import robotlegs.bender.extensions.starlingViewMap.StarlingViewMapExtension;
 	import robotlegs.bender.framework.api.IContext;
 	import robotlegs.bender.framework.impl.Context;
-	import robotlegs.bender.extensions.starlingViewMap.StarlingViewMapExtension;
+
 	import starling.core.Starling;
 	
 	/**

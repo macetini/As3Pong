@@ -2,10 +2,10 @@ package org.pong.mvcs.view.mediator
 {
 	import org.pong.mvcs.service.signals.AssetsLoadingCompleteSignal;
 	import org.pong.mvcs.service.signals.AssetsLoadingProgressSignal;
+	import org.pong.mvcs.view.AbstractMediator;
 	import org.pong.mvcs.view.component.LoadingScreenView;
 	import org.pong.mvcs.view.signals.ScreenTransitionCompleteSignal;
 	import org.pong.mvcs.view.signals.StartLoadingAssetsSignal;
-	import org.pong.mvcs.view.AbstractMediator;
 	
 	/**
 	  * Loading Screen mediator - handles assets loading.

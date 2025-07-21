@@ -1,7 +1,8 @@
 package org.pong.mvcs.view.mediator 
 {
-	import org.pong.mvcs.view.component.StarlingGameView
+	import org.pong.mvcs.view.component.StarlingGameView;
 	import org.pong.mvcs.view.signals.TickSignal;
+
 	import robotlegs.bender.extensions.starlingViewMap.impl.SignalMediator;
 	
 	/**

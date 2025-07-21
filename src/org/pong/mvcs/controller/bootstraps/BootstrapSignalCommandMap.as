@@ -1,9 +1,9 @@
 package org.pong.mvcs.controller.bootstraps 
 {
 	import org.pong.mvcs.controller.commands.*;
+	import org.pong.mvcs.service.signals.*;
 	import org.pong.mvcs.view.signals.*;
-	import org.pong.mvcs.service.signals.*;
-	import org.pong.mvcs.service.signals.*;
+
 	import robotlegs.bender.extensions.signalCommandMap.api.ISignalCommandMap;
 	
 	/**

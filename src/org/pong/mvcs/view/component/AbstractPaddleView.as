@@ -1,8 +1,8 @@
 package org.pong.mvcs.view.component 
 {
 	import org.pong.mvcs.view.AbstractSpriteView;
+
 	import starling.core.Starling;
-	import starling.display.Image;
 	import starling.events.KeyboardEvent;
 	
 	/**

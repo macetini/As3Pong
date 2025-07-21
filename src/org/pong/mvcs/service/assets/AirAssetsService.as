@@ -1,8 +1,10 @@
 package org.pong.mvcs.service.assets
 {
 	import flash.filesystem.File;
+
 	import org.pong.mvcs.service.signals.AssetsLoadingCompleteSignal;
 	import org.pong.mvcs.service.signals.AssetsLoadingProgressSignal;
+
 	import starling.utils.AssetManager;
 	
 	/**

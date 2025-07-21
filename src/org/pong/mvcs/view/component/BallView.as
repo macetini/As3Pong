@@ -4,7 +4,6 @@ package org.pong.mvcs.view.component
 	import org.osflash.signals.Signal;
 	import org.pong.mvcs.view.AbstractSpriteView;
 	import org.pong.mvcs.vo.BallVO;
-	import starling.display.Image;
 	
 	/**
 	 * 

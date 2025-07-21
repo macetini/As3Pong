@@ -2,14 +2,16 @@ package org.pong.mvcs.view.component
 {
 	import feathers.controls.ScreenNavigator;
 	import feathers.controls.ScreenNavigatorItem;
-	import feathers.motion.transitions.ScreenSlidingStackTransitionManager;	
+	import feathers.motion.transitions.ScreenSlidingStackTransitionManager;
+	import feathers.themes.MetalWorksMobileTheme;
+
 	import org.osflash.signals.ISignal;
 	import org.osflash.signals.Signal;
 	import org.pong.mvcs.view.component.MainView;
+
 	import starling.animation.Transitions;
 	import starling.events.EnterFrameEvent;
 	import starling.events.Event;
-	import feathers.themes.MetalWorksMobileTheme;
 	
 	/**
 	 * 

@@ -1,7 +1,9 @@
 package org.pong.mvcs.view.component 
 {
 	import feathers.controls.text.TextFieldTextRenderer;
+
 	import flash.text.TextFormat;
+
 	import org.pong.mvcs.view.AbstractScreenView;
 	import org.pong.mvcs.vo.ScoreVO;
 	

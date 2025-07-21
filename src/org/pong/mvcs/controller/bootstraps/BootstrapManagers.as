@@ -1,6 +1,7 @@
 package org.pong.mvcs.controller.bootstraps 
 {
 	import robotlegs.bender.framework.api.IInjector;
+
 	import starling.utils.AssetManager;
 	
 	/**

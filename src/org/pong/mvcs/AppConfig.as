@@ -1,6 +1,7 @@
 package org.pong.mvcs
 {
 	import org.pong.mvcs.controller.bootstraps.*;
+
 	import robotlegs.bender.extensions.mediatorMap.api.IMediatorMap;
 	import robotlegs.bender.extensions.signalCommandMap.api.ISignalCommandMap;
 	import robotlegs.bender.framework.api.IConfig;

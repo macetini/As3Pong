@@ -1,9 +1,10 @@
 package org.pong.mvcs.view.component 
 {
 	import feathers.controls.ProgressBar;
-	import org.pong.mvcs.view.AbstractScreenView;
+
 	import org.osflash.signals.ISignal;
 	import org.osflash.signals.Signal;
+	import org.pong.mvcs.view.AbstractScreenView;
 	
 	/**
 	 * Loading screen is first screen show by screen navigator. It's purpose is to show user assets loading progress.

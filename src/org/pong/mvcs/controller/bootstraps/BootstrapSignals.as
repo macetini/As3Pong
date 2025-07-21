@@ -3,6 +3,7 @@ package org.pong.mvcs.controller.bootstraps
 	import org.pong.mvcs.model.signals.*;
 	import org.pong.mvcs.service.signals.*;
 	import org.pong.mvcs.view.signals.*;
+
 	import robotlegs.bender.framework.api.IInjector;
 	
 	/**

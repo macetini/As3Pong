@@ -1,6 +1,7 @@
 package org.pong.mvcs.view.component.paddle 
 {
 	import flash.ui.Keyboard;
+
 	import org.pong.mvcs.view.component.AbstractPaddleView;
 	
 	/**

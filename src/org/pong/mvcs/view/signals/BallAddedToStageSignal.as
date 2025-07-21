@@ -1,6 +1,5 @@
 package org.pong.mvcs.view.signals 
 {
-	import feathers.controls.Screen;
 	import org.osflash.signals.Signal;
 	import org.pong.mvcs.vo.BallVO;
 	
