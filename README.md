@@ -6,7 +6,7 @@ Feathers<br/>
 Robotlegs<br/>
 Swiftsuspenders<br/>
 
-Back down to the memory lane :)
+Welcome back to the memory lane :)
 
 ActionScript 3 experiment I made in 2014. Small Pong clone that utilizes the Robotlegs MVC pattern with Stage3D and Signals.
 
