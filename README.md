@@ -1,4 +1,4 @@
-# PongActionScriptMVCS
+# Pong ActionScript 3 - MVCS Robotlegs
 
 Harman Air<br/>
 Starling<br/>
