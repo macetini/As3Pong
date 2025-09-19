@@ -19,7 +19,11 @@ package
 	import starling.core.Starling;
 	
 	/**
-	 * ...
+	 * Main entry point for the As3Pong application.
+	 * 
+	 * This class sets up the Flash stage, initializes the Starling framework,
+	 * and configures the Robotlegs context with the necessary extensions and application configuration.
+	 * 
 	 * @author Marko (Cetinic) Cettina
 	 */
 	
@@ -27,6 +31,10 @@ package
 	
 	public class Main extends Sprite
 	{	
+		/**
+		 * Constructor.
+		 * Checks if the stage is available; if not, waits for the ADDED_TO_STAGE event before initializing.
+		 */
 		public function Main():void
 		{
 			if (stage != null) {
@@ -36,18 +44,28 @@ package
 			}
 		}
 		
+		/**
+		 * Initializes the application.
+		 * Sets stage alignment and scale mode, creates and starts the Starling framework,
+		 * and sets up the Robotlegs context with required bundles and configuration.
+		 * 
+		 * @param e Optional Event parameter for ADDED_TO_STAGE event.
+		 */
 		private function init(e:Event=null):void
 		{			
+			// Align stage to top left and disable scaling
 			stage.align = StageAlign.TOP_LEFT;
 			stage.scaleMode = StageScaleMode.NO_SCALE;
 			
+			// Initialize Starling with the main game view
 			const starling:Starling = new Starling(StarlingGameView, stage, null, null, Context3DRenderMode.AUTO);
-			starling.showStats = true;
-			starling.start();
+			starling.showStats = true; // Display Starling performance stats
+			starling.start(); // Start Starling rendering
 			
+			// Set up Robotlegs context and install required bundles/extensions
 			const context:IContext = new Context()
-			.install(MVCSBundle, StarlingViewMapExtension, SignalCommandMapExtensionBundle)
-			.configure(AppConfig, new ContextView(this), starling);
+				.install(MVCSBundle, StarlingViewMapExtension, SignalCommandMapExtensionBundle)
+				.configure(AppConfig, new ContextView(this), starling);
 		}
 	}
 }
